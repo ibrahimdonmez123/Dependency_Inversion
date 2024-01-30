@@ -1,0 +1,10 @@
+﻿@model List<Arac>
+
+<h2>Araç Bilgileri</h2>
+
+<ul>
+    @foreach (var arac in Model)
+    {
+        <li>@arac.Marka - @arac.Model - @arac.Yil</li>
+    }
+</ul>
